@@ -1,0 +1,12 @@
+// Lectures by Ravula Govardhan - Youtube channel 
+// Create a program in C to evalute this expression
+// Evalute the expression a = b++ + ++b
+
+#include <stdio.h>
+int main()
+{
+    int a, b = 50;
+    a = b++ + ++b;
+    printf("\n \n b++ + ++b = %d", a);
+    return 0;
+}
