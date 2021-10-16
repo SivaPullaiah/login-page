@@ -1,0 +1,11 @@
+/* Create a program in C to solve the expression a=5<=8 && 6!=5*/
+
+#include <stdio.h>
+int
+main()
+{
+    int a = 0;
+    a = ((5 <= 8) && (6 != 5));
+    printf("\n\n Value of a is %d", a);
+    return 0;
+}
