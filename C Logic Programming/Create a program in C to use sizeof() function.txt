@@ -1,0 +1,16 @@
+/*Lectures by Ravula Govardhan (SUBSCRIBE & Click BELL)*/
+
+/* Create a program in C to use sizeof() function */
+
+#include<stdio.h>
+int
+main()
+{
+    int a;
+    float b;
+    char c;
+    printf("\n Size of integer a: %d bytes", sizeof(a));
+    printf("\n Size of float b: %d bytes", sizeof(b));
+    printf("\n Size of char c: %d bytes", sizeof(c));
+    return 0;
+}
