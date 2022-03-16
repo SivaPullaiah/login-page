@@ -1,0 +1,351 @@
+							LECTURES BY RAVULA GOVARDHAN
+						   --------------------------------
+							Make All Difficult Stuff Easy
+							
+Day-4 Text
+-----------
+Typeface Terminology:
+-------------------------
+1. Serif
+2.Sans-serif
+3.Monospace
+
+Choosing a typeface for your website:
+----------------------------------------
+1. Serif - Ex: Georgia, Times, Times New Roman
+2. Sans-serif - Ex: Arial, Verdana, Helvetica
+3. Monospace - Ex: Courier, Courier New 
+4. Cursive - Ex: Comic Sans MS, Monotype Cursive 
+5. Fantasy - Ex: Impact, Haettenschweiler
+
+For example:
+--------------
+font-family: Georgia, Times, serif;
+
+Specifying Typeface:
+----------------------
+font-family
+
+Example:
+-----------
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS text</title>
+<style type="text/css">
+    body {
+        font-family: Georgia, Times, serif;
+    }
+
+    h1,h2 {
+        font-family: Arial,Verdana, sans-serif;
+    }
+    .credits {
+        font-family: "Courier New", Courier, monospace;
+    }
+</style>
+</head>
+<body>
+<h1>Core Java Programming</h1>
+<p class="credits">Java is a very simple-high level, secured, concurrent platform independent, objected-oriented programming language.</p>
+<p class="intro">Java is a technology which provides - 1. Language 2. Platform</p>
+</body>
+</html>
+
+
+Size of Type (font-size):
+-------------------------
+1. Pixels - 16px, 32px, 15px
+2. Percentage - 16px , 75% - 12px, 200% - 32px 
+3. EMS
+
+Example:
+----------
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Font-size</title>
+<style type="text/css">
+    body {
+        font-family: Arial, Verdana, sans-serif;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+</style>
+</head>
+<body>
+<h1>First heading</h1>
+<p>This is first paragraph.</p>
+
+<h2>Second heading</h2>
+<p>This is second paragraph.</p>
+</body>
+</html>
+
+Type scales:
+-------------
+headings-24px
+body-12px 
+
+Units of Type size:
+--------------------
+Twelve Pixel Scale:
+--------------------
+Pixels									Percentage										EMS
+-------------------------------------------------------------------------
+h1-24px								h1-200%										h1-1.5em
+h2-18px								h2-150%										h2-1.3em
+h3-14px			=					h3-117%					=					h3-1.17em
+body-12px 							body-75%									body-100%
+																								p-0.75em
+----------------------------------------------------------------------------
+Sixteen Pixel Scale:
+--------------------
+Pixels									Percentage										EMS
+-------------------------------------------------------------------------
+h1-32px								h1-200%										h1-2em
+h2-24px								h2-150%										h2-1.5em
+h3-18px			=					h3-133%					=					h3-1.125em
+body-16px							body-100%									body-100%
+																								p-1em
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
