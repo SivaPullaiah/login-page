@@ -1,0 +1,49 @@
+                                    Lectures by Ravula Govardhan
+                                   --------------------------
+		       (SUBSCRIBE & Click BELL)
+
+Text: Abbreviations, Quotations, and Code
+--------------------------------------
+Abbreviations
+-------------
+abbr is used to markup an abbreviation, a shortened form of a word or phrase.
+
+The expanded phrase that the abbreviation represents can be defined in the value of the title attribute. This is optional but recommended.
+
+Example:
+--------
+<p>This web site is about <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+
+
+Quotations
+-----------
+blockquote and q are used for quotations. blockquote is generally used for standalone often multi-line quotations whereas q is used for shorter, in-line quotations.
+
+If the source of the quotation can be found on the Web, the cite attribute can be used to point to its origin.
+
+Example:
+--------
+<p>So I asked Ramu about quotations on the Web and he said <q>I know as much about quotations as I do about pigeon fancying</q>. Luckily, I found Lectures by Ravula Govardhan youtube channel and it said:</p>
+
+<blockquote cite="https://www.google.com/">
+    <p>blockquote and q are used for quotations. blockquote is generally used for standalone often multi-line quotations whereas q is used for shorter, in-line quotations.</p>
+</blockquote>
+
+Citations
+--------
+Just to make things nice and confusing, as well as a cite attribute, there is also a cite tag. This can be used to define the title of a work, such as a book.
+
+Example
+-------
+<p>According to <cite>the Lord Sri Krishna</cite>, God said <q>Everything in this world is not permanent.</q>. -from Bhagwad Geetha.</p>
+
+
+Code
+-----
+code is used to represent any form of computer code. Further, var can be used for variables (which could be a variable in anything, not just in code - it could be a variable in an equation, for example), samp for sample output, and kbd (keyboard) for user input.
+
+
+<p>If you add the line <code><var>givevaderachuckle</var> = true;</code> to the <code>destroy_planet</code> subroutine and then type <kbd>ilovejabba</kbd> into the console, the big bad green Death Star laser will etch <samp>Slug Lover!</samp> on the planet's surface.</p>
+
+
+
